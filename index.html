@@ -1,237 +1,247 @@
 <!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <title>Juyong Lee</title>
-  
-  <meta name="author" content="John Barron">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Juyong Lee</name>
-              </p>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
 
-              <p>
-                I am a master student in the Cognitive Learning for Vision and Robotics (CLVR) Lab at KAIST, advised by Prof. <a href="https://clvrai.com/web_lim/">Joseph Lim</a>.
-                I receive B.S. degree by double majoring both Computer Science and Engineering & Mathematics at POSTECH, where I could fortunately work with Prof. <a href="https://dongwookim-ml.github.io/">Dongwoo Kim</a>, Prof. <a href="https://jaesik.info/lab">Jaesik Park</a>, and Prof. <a href="http://rnb.postech.ac.kr/members/index.html">Wankyun Chung</a>.
-              </p>
-              <p>
-                
-              </p>
-              <p style="text-align:center">
-                <a href="data/jylee_CV.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://scholar.google.co.kr/citations?user=J7sqxHQAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp/&nbsp
-                <a href="mailto:agi.is@kaist.ac.kr">Email</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/jylee_grandcanyon.jpeg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/jylee_grandcanyon.jpeg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:65%;vertical-align:middle">
+                  <p style="text-align:center">
+                    <name>Juyong Lee</name>
+                  </p>
 
+                  <br>
+                  <p>
+                    I am a PhD(/MS int.) student at KAIST, advised by <a href="https://sites.google.com/view/kiminlee"
+                      target="_blank">Kimin Lee</a>.
+                    I received a B.S. degree with a double major in both mathematics and computer science/engineering at
+                    POSTECH.
+                    I have an experience as an exchange student at Stanford.
+                    Recently, I am working as a research engineer (contractor via YunoJuno) at Google DeepMind.
+                  </p>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-              <p>
-                I'm interested in understanding the fundamental principles of intelligence and building general task performing machines.
-                My research interests lie in domain generalization, structured representation learning, and deep generative models.
-                Currently, I am working on the method of helping AI agents to understand the semantics of behaviors and to generate its own objectives.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-				
-          <tr onmouseout="gmvae_stop()" onmouseover="gmvae_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='gmvae_image'>
-                <img src='images/22_jkaia.png' width="180" height="115"></div>
-                <img src='images/22_jkaia.png' width="180" height="115">
-              </div>
-              <script type="text/javascript">
-                function gmvae_start() {
-                  document.getElementById('gmvae_image').style.opacity = "1";
-                }
-                function gmvae_stop() {
-                  document.getElementById('gmvae_image').style.opacity = "0";
-                }
-                samurai_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2209.15217">
-                <papertitle>GM-VAE: Representation Learning with VAE on Gaussian Manifold</papertitle>
-              </a>
-              <br>
-              Seunghyuk Cho,
-              <strong>Juyong Lee</strong>,
-              Dongwoo Kim
-              <br>
-              <em>JKAIA (Awarded)</em>, 2022
-              <br>
-              <a href="https://arxiv.org/abs/2209.15217">paper</a>
-              <p></p>
-              <p>
-              From the observation that the set of the diagonal Gaussian distributions with the Fisher information metric forms a product hyperbolic space (we name Gaussian manifold), we propose a variational auto-encoder whose latent space is the Gaussian manifold.
-              </p>
-            </td>
-          </tr>		
+                  <p>
+                    My main research interest is to build capable and reliable AI agents,
+                    currently focusing on digital tasks (e.g., web tasks).
+                  </p>
 
-          <tr onmouseout="rown_stop()" onmouseover="rown_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='rown_image'>
-                <img src='images/22_neurips.png' width="180" height="110"></div>
-                <img src='images/22_neurips.png' width="180" height="110">
-              </div>
-              <script type="text/javascript">
-                function rown_start() {
-                  document.getElementById('rown_image').style.opacity = "1";
-                }
-                function rown_stop() {
-                  document.getElementById('rown_image').style.opacity = "0";
-                }
-                samurai_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2205.13371">
-                <papertitle>A Rotated Hyperbolic Wrapped Normal Distribution for Hierarchical Representation Learning</papertitle>
-              </a>
-              <br>
-              Seunghyuk Cho,
-              <strong>Juyong Lee</strong>,
-              Jaesik Park,
-              Dongwoo Kim
-              <br>
-              <em>NeurIPS</em>, 2022
-              <br>
-              <a href="https://arxiv.org/abs/2205.13371">paper</a> /
-              <a href="https://github.com/ml-postech/RoWN">code</a> 
-              <p></p>
-              <p>
-              A simple yet effective alteration of a hyperbolic wrapped normal distribution (HWN), to better utilize the geometric properties of the diagonal HWN.
-              We analyze the geometric properties of the diagonal HWN and alleviate the limitation by introducing the rotated hyperbolic wrapped normal distribution (RoWN).
-              </p>
-            </td>
-          </tr>		
+                  <p style="text-align:center">
+                    <a href="data/Academic_CV.pdf" target="_blank">CV</a> &nbsp/&nbsp
+                    <a href="https://scholar.google.co.kr/citations?user=J7sqxHQAAAAJ&hl=en&oi=ao"
+                      target="_blank">Google Scholar</a> &nbsp/&nbsp
+                    <a href="https://github.com/jylee425" target="_blank">Github</a>
+                  </p>
+                </td>
+                <td class="profile-photo-cell" style="padding-right:3%;width:30%">
+                  <br>
+                  <a href="images/jylee_busan.png" target="_blank"><img style="width:100%;max-width:100%"
+                      alt="profile photo" src="images/jylee_busan.png"></a>
+                </td>
+              </tr>
+          </table>
 
-          <tr onmouseout="sar_stop()" onmouseover="sar_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='sar_image'>
-                <img src='images/22_eccv.jpg' width="180" height="115"></div>
-                <img src='images/22_eccv.jpg' width="180" height="115">
-              </div>
-              <script type="text/javascript">
-                function sar_start() {
-                  document.getElementById('sar_image').style.opacity = "1";
-                }
-                function sar_stop() {
-                  document.getElementById('sar_image').style.opacity = "0";
-                }
-                samurai_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2208.14863">
-                <papertitle>Style-Agnostic Reinforcement Learning</papertitle>
-              </a>
-              <br>
-              <strong>Juyong Lee</strong>,
-              Seokjun Ahn,
-              Jaesik Park
-              <br>
-              <em>ECCV</em>, 2022
-              <br>
-              <a href="https://arxiv.org/abs/2208.14863">paper</a> /
-              <a href="https://github.com/POSTECH-CVLab/style-agnostic-RL">code</a>
-              <p></p>
-              <p>
-              Style-agnostic reinforcement learning algorithm, with the aim of both neural style transfer and adversarial learning.
-              The style, here, refers to task-irrelevant details in the image, such as the background color.
-              We let agents to learn style-agnostic representation by generating adversarial perturbation in the latent space and to show generalized performances.
-              </p>
-            </td>
-          </tr>		
+          <br>
+          <br>
 
-          <tr onmouseout="cell_stop()" onmouseover="cell_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='cell_image'>
-                <img src='images/19_biomaterials.png' width="180" height="130"></div>
-                <img src='images/19_biomaterials.png' width="180" height="130">
-              </div>
-              <script type="text/javascript">
-                function cell_start() {
-                  document.getElementById('cell_image').style.opacity = "1";
-                }
-                function cell_stop() {
-                  document.getElementById('cell_image').style.opacity = "0";
-                }
-                samurai_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://www.sciencedirect.com/science/article/pii/S0142961219301863">
-                <papertitle>A 3D cell printed muscle construct with tissue-derived bioink for the treatment of volumetric muscle loss</papertitle>
-              </a>
-              <br>
-              Yeong-Jin Choi,
-              Young-Joon Jun,
-              DongYeon Kim,
-              Hee-Gyeong Yi,
-              Su-Hun Chae,
-              Junsu Kang,
-              <strong>Juyong Lee</strong>,
-              Ge Gao,
-              Jeong-Sik Kong,
-              Jinah Jang,
-              Wan Kyun Chung,
-              Jong-Won Rhie,
-              Dong-Woo Cho
-              <br>
-              <em>Biomaterials</em>, 2019
-              <br>
-              <a href="https://www.sciencedirect.com/science/article/pii/S0142961219301863">paper</a>
-              <p></p>
-              <p>
-              A novel treatment for volumetric muscle loss with decellularized extraceullar matrix bioink using 3D cell printing technology.
-              I, especially, participated in situ functional analysis of the 3D printed muscle cell, to electrically stimulate the peroneal nerve of mice legs.
-              The results verifies that a 3D cell printing approach could effectively generate biomimetic engineered muscles to improve the treatment.
-              </p>
-            </td>
-          </tr>		
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <heading>Research Highlights</heading>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  (*: equal contribution)
+                </td>
+              </tr>
+          </table>
+
+          <table class="research-highlights"
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <tr class="research-highlight">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div style="height:100px;position:relative;">
+                    <img src='images/mobilesafetybench.png' width="180" height="80">
+                  </div>
+                </td>
+
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://mobilesafetybench.github.io/" target="_blank">
+                    <papertitle>MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control
+                    </papertitle>
+                  </a>
+
+                  <br>
+                  <strong>Juyong Lee*</strong>,
+                  Dongyoon Hahm*,
+                  June Suk Choi*,
+                  W. Bradley Knox,
+                  Kimin Lee
+                  <br>
+                  <em>AAAI 2026 (AI Alignment Track)</em>
+
+                  <br>
+                  <a href="https://mobilesafetybench.github.io/" target="_blank">project</a>
+                  /
+                  <a href="https://arxiv.org/abs/2410.17520" target="_blank">paper</a>
+                  /
+                  <a href="https://www.github.com/jylee425/mobilesafetybench" target="_blank">code</a>
+
+                  <p>
+                    We propose a new benchmark for evaluating the safety and helpfulness of agents,
+                    with extensive analysis of the shortcomings of frontier LLM agents in mobile device control.
+                  </p>
+                </td>
+              </tr>
 
 
-        </tbody></table>
+              <tr class="research-highlight">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div style="height:100px;position:relative;">
+                    <img src='images/b-moca.png' width="180" height="80">
+                  </div>
+                </td>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                The source code is from <a href="https://github.com/jonbarron/jonbarron_website">here</a>
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://b-moca.github.io/" target="_blank">
+                    <papertitle>B-MoCA: Benchmarking Mobile Device Control Agents across Diverse Configurations
+                    </papertitle>
+                  </a>
+
+                  <br>
+                  <strong>Juyong Lee</strong>,
+                  Taywon Min,
+                  Minyong An,
+                  Dongyoon Hahm,
+                  Haeone Lee,
+                  Changyeon Kim,
+                  Kimin Lee
+                  <br>
+                  <em>CoLLAs</em> 2025;
+                  <em>ICLR</em> 2024 Workshop: GenAI4DM (<span style="color:red">spotlight presentation</span>)
+
+                  <br>
+                  <a href="https://b-moca.github.io/" target="_blank">project</a>
+                  /
+                  <a href="https://arxiv.org/abs/2404.16660" target="_blank">paper</a>
+                  /
+                  <a href="https://www.github.com/jylee425/b-moca" target="_blank">code</a>
+
+                  <p>
+                    A novel benchmark that can serve as a unified testbed for mobile device control agents
+                    on performing practical daily tasks across diverse device configurations.
+                  </p>
+                </td>
+              </tr>
+
+
+              <tr class="research-highlight">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div style="height:100px;position:relative;">
+                    <img src='images/lcow.png' width="180" height="50">
+                  </div>
+                </td>
+
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://www.arxiv.org/abs/2503.10689" target="_blank">
+                    <papertitle>Learning to Contextualize Web Pages for Enhanced Decision Making by LLM Agents
+                    </papertitle>
+                  </a>
+
+                  <br>
+                  Dongjun Lee*,
+                  <strong>Juyong Lee*</strong>,
+                  Kyuyoung Kim,
+                  Jihoon Tack,
+                  Jinwoo Shin,
+                  Yee Whye Teh,
+                  Kimin Lee
+                  <br>
+                  <em>ICLR</em> 2025
+
+                  <br>
+                  <a href="https://lcowiclr2025.github.io/" target="_blank">project</a>
+                  /
+                  <a href="https://www.arxiv.org/abs/2503.10689" target="_blank">paper</a>
+
+                  <p>
+                    A novel framework of training a contextualization module to help the decision-making of LLM agents
+                    achieves the super-human performance in the WebShop benchmark.
+                  </p>
+                </td>
+              </tr>
+
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div>
+                    <img src='images/sar.png' width="180" height="90">
+                  </div>
+                </td>
+
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2208.14863" target="_blank">
+                    <papertitle>Style-Agnostic Reinforcement Learning</papertitle>
+                  </a>
+
+                  <br>
+                  <strong>Juyong Lee*</strong>,
+                  Seokjun Ahn*,
+                  Jaesik Park
+
+                  <br>
+                  <em>ECCV</em> 2022
+
+                  <br>
+                  <a href="https://arxiv.org/abs/2208.14863" target="_blank">paper</a>
+                  /
+                  <a href="https://github.com/POSTECH-CVLab/style-agnostic-RL" target="_blank">code</a>
+
+                  <p>
+                    Reinforcement learning agents become robust to the changes in the style of the image (e.g.,
+                    background color)
+                    by adapting to adversarially generated styles.
+                  </p>
+                </td>
+              </tr>
+
+              <table
+                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                  <tr>
+                    <td style="padding:0px">
+                      <br>
+                      <p style="text-align:right;font-size:small;">
+                        The source code is from <a href="https://github.com/jonbarron/jonbarron_website"
+                          target="_blank">here</a>
+                      </p>
+                    </td>
+                  </tr>
+              </table>
+
+        </td>
+      </tr>
+    </tbody>
   </table>
 </body>
 
