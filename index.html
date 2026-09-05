@@ -23,24 +23,27 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr style="padding:0px">
-                <td style="padding:2.5%;width:65%;vertical-align:middle">
+                <td class="intro" style="padding:2.5%;width:65%;vertical-align:middle">
                   <p style="text-align:center">
                     <name>Juyong Lee</name>
                   </p>
 
                   <br>
                   <p>
-                    I am a PhD(/MS int.) student at KAIST, advised by <a href="https://sites.google.com/view/kiminlee"
+                    I am a PhD(/MS int.) candidate at KAIST, advised by <a href="https://scholar.google.com/citations?user=92M8xv4AAAAJ&amp;hl=en"
                       target="_blank">Kimin Lee</a>.
                     I received a B.S. degree with a double major in both mathematics and computer science/engineering at
                     POSTECH.
                     I have an experience as an exchange student at Stanford.
-                    Recently, I am working as a research engineer (contractor via YunoJuno) at Google DeepMind.
+                    I am currently a research engineer at Google DeepMind, reporting to <a
+                      href="https://scholar.google.com/citations?user=Ch6DPFcAAAAJ&hl=en" target="_blank">Daniel
+                      Toyama</a>.
                   </p>
 
                   <p>
-                    My main research interest is to build capable and reliable AI agents,
-                    currently focusing on digital tasks (e.g., web tasks).
+                    My doctoral research focuses on developing autonomous agents for controlling mobile devices with
+                    language models.
+                    Currently, I am interested in enabling agents to operate over extremely long horizons.
                   </p>
 
                   <p style="text-align:center">
@@ -61,188 +64,258 @@
           <br>
           <br>
 
+          <!-- Tab Navigation -->
+          <div class="tab-nav">
+            <button id="tab-btn-research" class="tab-btn tab-btn-active"
+              onclick="switchTab('research')">Research</button>
+            <button id="tab-btn-posts" class="tab-btn" onclick="switchTab('posts')">Posts</button>
+          </div>
+
+          <!-- Research Tab Content -->
+          <div id="tab-research-content">
+            <p style="padding:10px 20px 0;font-size:calc(13px + 1pt);color:#888;">Peer-reviewed journal, conference, and workshop publications (*: equal contribution).</p>
+            <table class="research-highlights"
+              style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+
+                <tr class="research-highlight">
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <a href="https://arxiv.org/abs/2410.17520" target="_blank">
+                      <papertitle>MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control
+                      </papertitle>
+                    </a>
+
+                    <br>
+                    <span class="paper-authors"><strong>Juyong Lee*</strong>,
+                      Dongyoon Hahm*,
+                      June Suk Choi*,
+                      W. Bradley Knox,
+                      Kimin Lee</span>
+                    <br>
+                    <em>AAAI 2026 (AI Alignment Track)</em>
+                  </td>
+                </tr>
+
+
+                <tr class="research-highlight">
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <a href="https://arxiv.org/abs/2510.14513" target="_blank">
+                      <papertitle>State Your Intention to Steer Your Attention: An AI Assistant for Intentional Digital
+                        Living</papertitle>
+                    </a>
+
+                    <br>
+                    <span class="paper-authors">Juheon Choi, <strong>Juyong Lee</strong>, Jian Kim, ..., W. Bradley
+                      Knox, Min Kyung Lee, Kimin Lee</span>
+                    <br>
+                    <em>CHI</em> 2026
+                  </td>
+                </tr>
+
+
+                <tr class="research-highlight">
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <a href="https://arxiv.org/abs/2510.11977" target="_blank">
+                      <papertitle>Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation
+                      </papertitle>
+                    </a>
+
+                    <br>
+                    <span class="paper-authors">Sayash Kapoor, Benedikt Stroebl, Peter Kirgis, ..., <strong>Juyong
+                        Lee</strong>, ..., Yu Su, Percy Liang, Arvind Narayanan</span>
+                    <br>
+                    <em>ICLR</em> 2026
+                  </td>
+                </tr>
+
+
+                <tr class="research-highlight">
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <a href="https://openreview.net/forum?id=scpGsrKz2y" target="_blank">
+                      <papertitle>Adversarial Iterative Unit Test Generation with Large Language Models</papertitle>
+                    </a>
+
+                    <br>
+                    <span class="paper-authors">Dongjun Lee, <strong>Juyong Lee</strong>, Changho Hwang, Kimin
+                      Lee</span>
+                    <br>
+                    <em>ICLR</em> 2026 Workshop: Reliable Autonomy
+                  </td>
+                </tr>
+
+
+                <tr class="research-highlight">
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <a href="https://arxiv.org/abs/2503.10689" target="_blank">
+                      <papertitle>Learning to Contextualize Web Pages for Enhanced Decision Making by LLM Agents
+                      </papertitle>
+                    </a>
+
+                    <br>
+                    <span class="paper-authors">Dongjun Lee*,
+                      <strong>Juyong Lee*</strong>,
+                      Kyuyoung Kim,
+                      ...,
+                      Jinwoo Shin,
+                      Yee Whye Teh,
+                      Kimin Lee</span>
+                    <br>
+                    <em>ICLR</em> 2025
+                  </td>
+                </tr>
+
+
+                <tr class="research-highlight">
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <a href="https://arxiv.org/abs/2404.16660" target="_blank">
+                      <papertitle>Benchmarking Mobile Device Control Agents across Diverse Configurations
+                      </papertitle>
+                    </a>
+
+                    <br>
+                    <span class="paper-authors"><strong>Juyong Lee</strong>,
+                      Taywon Min,
+                      Minyong An,
+                      ...,
+                      Haeone Lee,
+                      Changyeon Kim,
+                      Kimin Lee</span>
+                    <br>
+                    <em>ICLR</em> 2024 Workshop: GenAI4DM (spotlight presentation);
+                    <em>CoLLAs</em> 2025
+                  </td>
+                </tr>
+
+
+                <tr class="research-highlight">
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <a href="https://arxiv.org/abs/2209.15217" target="_blank">
+                      <papertitle>Hyperbolic VAE via Latent Gaussian Distributions</papertitle>
+                    </a>
+
+                    <br>
+                    <span class="paper-authors">Seunghyuk Cho, <strong>Juyong Lee</strong>, Dongwoo Kim</span>
+                    <br>
+                    <em>NeurIPS</em> 2023
+                  </td>
+                </tr>
+
+
+                <tr class="research-highlight">
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <a href="https://arxiv.org/abs/2312.08958" target="_blank">
+                      <papertitle>LiFT: Unsupervised Reinforcement Learning with Foundation Models as Teachers
+                      </papertitle>
+                    </a>
+
+                    <br>
+                    <span class="paper-authors">Taewook Nam*, <strong>Juyong Lee*</strong>, Jesse Zhang, Sung Ju Hwang,
+                      Joseph J. Lim, Karl Pertsch</span>
+                    <br>
+                    <em>NeurIPS</em> 2023 Workshop: Agent Learning in Open-Endedness
+                  </td>
+                </tr>
+
+
+                <tr class="research-highlight">
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <a href="https://arxiv.org/abs/2205.13371" target="_blank">
+                      <papertitle>A Rotated Hyperbolic Wrapped Normal Distribution for Hierarchical Representation
+                        Learning</papertitle>
+                    </a>
+
+                    <br>
+                    <span class="paper-authors">Seunghyuk Cho, <strong>Juyong Lee</strong>, Jaesik Park, Dongwoo
+                      Kim</span>
+                    <br>
+                    <em>NeurIPS</em> 2022
+                  </td>
+                </tr>
+
+
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <a href="https://arxiv.org/abs/2208.14863" target="_blank">
+                      <papertitle>Style-Agnostic Reinforcement Learning</papertitle>
+                    </a>
+
+                    <br>
+                    <span class="paper-authors"><strong>Juyong Lee*</strong>,
+                      Seokjun Ahn*,
+                      Jaesik Park</span>
+
+                    <br>
+                    <em>ECCV</em> 2022
+                  </td>
+                </tr>
+
+                <tr class="research-highlight">
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <a href="https://doi.org/10.1016/j.biomaterials.2019.03.036" target="_blank">
+                      <papertitle>A 3D cell printed muscle construct with tissue-derived bioink for the treatment of
+                        volumetric muscle loss</papertitle>
+                    </a>
+
+                    <br>
+                    <span class="paper-authors">Yeong-Jin Choi, Young-Joon Jun, ..., <strong>Juyong Lee</strong>, ...,
+                      Wan Kyun Chung, Jong-Won Rhie, Dong-Woo Cho</span>
+                    <br>
+                    <em>Biomaterials</em> 2019
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Posts Tab Content -->
+          <div id="tab-posts-content" style="display:none">
+            <table
+              style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr class="post-entry">
+                  <td class="post-date">YYYY-MM-DD</td>
+                  <td class="post-body">
+                    <a href="posts/template.html">Post template</a>
+                    <p>To be posted...</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Footer -->
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <heading>Research Highlights</heading>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  (*: equal contribution)
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:calc(13px + 1pt);">
+                    The source code is based on <a href="https://github.com/jonbarron/jonbarron_website"
+                      target="_blank">this repository</a>
+                  </p>
                 </td>
               </tr>
+            </tbody>
           </table>
-
-          <table class="research-highlights"
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-
-              <tr class="research-highlight">
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div style="height:100px;position:relative;">
-                    <img src='images/mobilesafetybench.png' width="180" height="80">
-                  </div>
-                </td>
-
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://mobilesafetybench.github.io/" target="_blank">
-                    <papertitle>MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control
-                    </papertitle>
-                  </a>
-
-                  <br>
-                  <strong>Juyong Lee*</strong>,
-                  Dongyoon Hahm*,
-                  June Suk Choi*,
-                  W. Bradley Knox,
-                  Kimin Lee
-                  <br>
-                  <em>AAAI 2026 (AI Alignment Track)</em>
-
-                  <br>
-                  <a href="https://mobilesafetybench.github.io/" target="_blank">project</a>
-                  /
-                  <a href="https://arxiv.org/abs/2410.17520" target="_blank">paper</a>
-                  /
-                  <a href="https://www.github.com/jylee425/mobilesafetybench" target="_blank">code</a>
-
-                  <p>
-                    We propose a new benchmark for evaluating the safety and helpfulness of agents,
-                    with extensive analysis of the shortcomings of frontier LLM agents in mobile device control.
-                  </p>
-                </td>
-              </tr>
-
-
-              <tr class="research-highlight">
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div style="height:100px;position:relative;">
-                    <img src='images/b-moca.png' width="180" height="80">
-                  </div>
-                </td>
-
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://b-moca.github.io/" target="_blank">
-                    <papertitle>B-MoCA: Benchmarking Mobile Device Control Agents across Diverse Configurations
-                    </papertitle>
-                  </a>
-
-                  <br>
-                  <strong>Juyong Lee</strong>,
-                  Taywon Min,
-                  Minyong An,
-                  Dongyoon Hahm,
-                  Haeone Lee,
-                  Changyeon Kim,
-                  Kimin Lee
-                  <br>
-                  <em>CoLLAs</em> 2025;
-                  <em>ICLR</em> 2024 Workshop: GenAI4DM (<span style="color:red">spotlight presentation</span>)
-
-                  <br>
-                  <a href="https://b-moca.github.io/" target="_blank">project</a>
-                  /
-                  <a href="https://arxiv.org/abs/2404.16660" target="_blank">paper</a>
-                  /
-                  <a href="https://www.github.com/jylee425/b-moca" target="_blank">code</a>
-
-                  <p>
-                    A novel benchmark that can serve as a unified testbed for mobile device control agents
-                    on performing practical daily tasks across diverse device configurations.
-                  </p>
-                </td>
-              </tr>
-
-
-              <tr class="research-highlight">
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div style="height:100px;position:relative;">
-                    <img src='images/lcow.png' width="180" height="50">
-                  </div>
-                </td>
-
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://www.arxiv.org/abs/2503.10689" target="_blank">
-                    <papertitle>Learning to Contextualize Web Pages for Enhanced Decision Making by LLM Agents
-                    </papertitle>
-                  </a>
-
-                  <br>
-                  Dongjun Lee*,
-                  <strong>Juyong Lee*</strong>,
-                  Kyuyoung Kim,
-                  Jihoon Tack,
-                  Jinwoo Shin,
-                  Yee Whye Teh,
-                  Kimin Lee
-                  <br>
-                  <em>ICLR</em> 2025
-
-                  <br>
-                  <a href="https://lcowiclr2025.github.io/" target="_blank">project</a>
-                  /
-                  <a href="https://www.arxiv.org/abs/2503.10689" target="_blank">paper</a>
-
-                  <p>
-                    A novel framework of training a contextualization module to help the decision-making of LLM agents
-                    achieves the super-human performance in the WebShop benchmark.
-                  </p>
-                </td>
-              </tr>
-
-
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                  <div>
-                    <img src='images/sar.png' width="180" height="90">
-                  </div>
-                </td>
-
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2208.14863" target="_blank">
-                    <papertitle>Style-Agnostic Reinforcement Learning</papertitle>
-                  </a>
-
-                  <br>
-                  <strong>Juyong Lee*</strong>,
-                  Seokjun Ahn*,
-                  Jaesik Park
-
-                  <br>
-                  <em>ECCV</em> 2022
-
-                  <br>
-                  <a href="https://arxiv.org/abs/2208.14863" target="_blank">paper</a>
-                  /
-                  <a href="https://github.com/POSTECH-CVLab/style-agnostic-RL" target="_blank">code</a>
-
-                  <p>
-                    Reinforcement learning agents become robust to the changes in the style of the image (e.g.,
-                    background color)
-                    by adapting to adversarially generated styles.
-                  </p>
-                </td>
-              </tr>
-
-              <table
-                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                <tbody>
-                  <tr>
-                    <td style="padding:0px">
-                      <br>
-                      <p style="text-align:right;font-size:small;">
-                        The source code is from <a href="https://github.com/jonbarron/jonbarron_website"
-                          target="_blank">here</a>
-                      </p>
-                    </td>
-                  </tr>
-              </table>
 
         </td>
       </tr>
     </tbody>
   </table>
+
+  <script>
+    function switchTab(tab) {
+      document.getElementById('tab-research-content').style.display = 'none';
+      document.getElementById('tab-posts-content').style.display = 'none';
+      document.querySelectorAll('.tab-btn').forEach(function (b) {
+        b.classList.remove('tab-btn-active');
+      });
+      document.getElementById('tab-' + tab + '-content').style.display = '';
+      document.getElementById('tab-btn-' + tab).classList.add('tab-btn-active');
+    }
+  </script>
 </body>
 
 </html>
