@@ -30,14 +30,14 @@
 
                   <br>
                   <p>
-                    I am a PhD(/MS int.) candidate at KAIST, advised by <a href="https://scholar.google.com/citations?user=92M8xv4AAAAJ&amp;hl=en"
-                      target="_blank">Kimin Lee</a>.
-                    I received a B.S. degree with a double major in both mathematics and computer science/engineering at
-                    POSTECH.
-                    I have an experience as an exchange student at Stanford.
-                    I am currently a research engineer at Google DeepMind, reporting to <a
+                    I am a research engineer at Google DeepMind, reporting to <a
                       href="https://scholar.google.com/citations?user=Ch6DPFcAAAAJ&hl=en" target="_blank">Daniel
                       Toyama</a>.
+                    I am also a Ph.D. candidate at KAIST (thesis defended), advised by <a
+                      href="https://scholar.google.com/citations?user=92M8xv4AAAAJ&amp;hl=en" target="_blank">Kimin
+                      Lee</a>.
+                    I received a B.S. degree with a double major in mathematics and computer science/engineering from
+                    POSTECH.
                   </p>
 
                   <p>
@@ -50,7 +50,7 @@
                     <a href="data/Academic_CV.pdf" target="_blank">CV</a> &nbsp/&nbsp
                     <a href="https://scholar.google.co.kr/citations?user=J7sqxHQAAAAJ&hl=en&oi=ao"
                       target="_blank">Google Scholar</a> &nbsp/&nbsp
-                    <a href="https://github.com/jylee425" target="_blank">Github</a>
+                    <a href="https://github.com/jylee425" target="_blank">GitHub</a>
                   </p>
                 </td>
                 <td class="profile-photo-cell" style="padding-right:3%;width:30%">
@@ -73,7 +73,8 @@
 
           <!-- Research Tab Content -->
           <div id="tab-research-content">
-            <p style="padding:10px 20px 0;font-size:calc(13px + 1pt);color:#888;">Peer-reviewed journal, conference, and workshop publications (*: equal contribution).</p>
+            <p style="padding:10px 20px 0;font-size:calc(13px + 1pt);color:#888;">Peer-reviewed journal, conference, and
+              workshop publications (*: equal contribution).</p>
             <table class="research-highlights"
               style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
               <tbody>
@@ -274,10 +275,10 @@
               style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
               <tbody>
                 <tr class="post-entry">
-                  <td class="post-date">YYYY-MM-DD</td>
+                  <td class="post-date">2026-10-31</td>
                   <td class="post-body">
-                    <a href="posts/template.html">Post template</a>
-                    <p>To be posted...</p>
+                    <a href="posts/20261031_self_consistent_causal_loop.html">Self-consistent causal loop</a>
+                    <p>Speculating about a circular causality model for the origin of our universe.</p>
                   </td>
                 </tr>
               </tbody>
@@ -315,6 +316,13 @@
       document.getElementById('tab-' + tab + '-content').style.display = '';
       document.getElementById('tab-btn-' + tab).classList.add('tab-btn-active');
     }
+
+    function syncTabFromHash() {
+      switchTab(window.location.hash === '#posts' ? 'posts' : 'research');
+    }
+
+    window.addEventListener('hashchange', syncTabFromHash);
+    syncTabFromHash();
   </script>
 </body>
 
